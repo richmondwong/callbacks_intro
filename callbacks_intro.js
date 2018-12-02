@@ -1,7 +1,7 @@
-f
+
 // Changing actionWhenFound to print "at Index [x]"
 
-unction findWaldo(arr, found) {
+function findWaldo(arr, found) {
   for (var i = 0; i < arr.length; i++) {
     if (arr[i] === "Waldo") {
       found(i);   // execute callback
