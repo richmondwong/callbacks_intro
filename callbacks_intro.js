@@ -1,6 +1,4 @@
-
 // Changing actionWhenFound to print "at Index [x]"
-
 function findWaldo(arr, found) {
   for (var i = 0; i < arr.length; i++) {
     if (arr[i] === "Waldo") {
@@ -16,8 +14,6 @@ function actionWhenFound(input) {
 findWaldo(["Alice", "Bob", "Waldo", "Winston"], actionWhenFound);
 
 // Replacing for loop with forEach
-
-
 function findWaldo(arr, found) {
 arr.forEach(function(input){
   if (input === "Waldo"){
